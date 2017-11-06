@@ -56,9 +56,6 @@ a {
   padding-top: 116px;
 }
 
-div {
-  border: 1px solid Black;
-}
 
 .column {
   display: flex;
@@ -111,4 +108,24 @@ div {
   margin-top: 15px;
   font-size: 30px;
   text-align: center;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+.narrative {
+  margin-top: 16px;
 }
